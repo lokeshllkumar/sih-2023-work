@@ -1,6 +1,4 @@
-const apiKey = "306290ad3784e6f2e94789a6f03dbad6"; //include the API key for the OpenWeatherMap weather API
-
-async function fetchWeatherData()
+async function fetchWeatherData(apiKey) //pass the API key for the OpenWeatherMap weather API as an argument to the function during invocation
 {
     try
     {
