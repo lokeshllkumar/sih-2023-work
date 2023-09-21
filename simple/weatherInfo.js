@@ -48,3 +48,5 @@ fetchWeatherData()
     .catch((err) => {
         console.log("Error in fetching weather data!");
     });
+
+// test API key = 306290ad3784e6f2e94789a6f03dbad6
